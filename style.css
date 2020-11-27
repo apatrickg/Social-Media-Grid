@@ -278,7 +278,15 @@ body.dark-theme .tL-fb{color: var(--txtDesatBlue)}
     font-weight: 700;
     padding-top: 10px;
 }
+
+.bR-d{
+    float: right; 
+    color: var(--brightRed);
+    font-weight: 700;
+    padding-top: 10px;
+}
 .bR::before{ content: url('/images/icon-up.svg');padding-right: 5px;}
+.bR-d::before{ content: url('/images/icon-down.svg');padding-right: 5px;}
 
 .tL-ig{font-weight: 700; color: var(--txtDarkGrayishBlue);}
 .tL-ig::after{content: url('images/icon-instagram.svg'); float: right;}
