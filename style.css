@@ -432,39 +432,55 @@ body.dark-theme .tL-yt{color: var(--txtDesatBlue)}
 
 @media only screen and (max-width:380px){
 
+    .content-wrapper{
+        padding:0;
+        margin: 0;
+        width: auto;
+    }
+
+
+    .content-top{
+        margin: 0;
+        padding:0;
+        width: 30em;
+    }
     
     .toggle-wrapper{
-        margin: 20px 45px 100px auto;
+        margin: 20px 35px 100px auto;
     }
 
     hr{
-        width: 19.9em;
+        width: 24.5em;
     }
 
     .dark{
-        padding: 0em 11em 0em 2.1em 
+        padding: 0em 15.5em 0em 0em;
+        margin:  0em; 
 
     }
 
     .content-mid{
-        margin: 0px 10px 0px 10px 
+        margin: 0px 0px 0px 0px;
     }
 
     .zone{
-        width: 20em;
+        width: 24.5em;
     }
 
     .zone-m{
-        width: 20em;
+        width: 24.5em;
+        margin: 0;
     }
 
     .content-bottom{
-        margin: 0px 10px 0px 10px;
+        margin: 0px 0px 0px 0px;
     }
 
     .social{
-        margin-left: 26px; 
+        margin-left: 0;
+        margin-right: 10px; 
         align-self: center;
-        width: 28em;
+        width: 29em;
     }
+
 }
