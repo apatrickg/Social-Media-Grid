@@ -377,7 +377,7 @@ body.dark-theme .tL-yt{color: var(--txtDesatBlue)}
     .content-bottom{
         margin: 0px 40px 0px 40px;
         position: relative;
-        bottom: 14%;
+        bottom: 0;
     }
 
     .bottom-grid{
@@ -422,6 +422,7 @@ body.dark-theme .tL-yt{color: var(--txtDesatBlue)}
 
     .content-bottom{
         margin: 0px 10px 0px 10px;
+        bottom: 0;
     }
 
     .social{
@@ -435,7 +436,7 @@ body.dark-theme .tL-yt{color: var(--txtDesatBlue)}
     .content-wrapper{
         padding:0;
         margin: 0;
-        width: auto;
+        width: 27em;
     }
 
 
@@ -450,7 +451,7 @@ body.dark-theme .tL-yt{color: var(--txtDesatBlue)}
     }
 
     hr{
-        width: 24.5em;
+        width: 19.5em;
     }
 
     .dark{
@@ -464,11 +465,11 @@ body.dark-theme .tL-yt{color: var(--txtDesatBlue)}
     }
 
     .zone{
-        width: 24.5em;
+        width: 19.5em;
     }
 
     .zone-m{
-        width: 24.5em;
+        width: 19.5em;
         margin: 0;
     }
 
